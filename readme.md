@@ -3,12 +3,15 @@
 本工具为UOSP（Utopia Open Source Project）的组成部分。
 
 使用Golang作为Server端，Python作为Client端，请先安装好相应的环境
+
 Golang版本：1.12及以上
+
 Python版本：3.7.4及以上
 
 # Client端
 
 **作者：Tiga江（Utopia前端组）**
+
 Client端使用Server端预定的URL发起迁移请求，Client端默认的URL格式为：
 
 ```
@@ -20,6 +23,7 @@ https://<your_upload_URL>?path=<file_name>&id=<file_id>
 # Server端
 
 **作者：Kark李（Utopia后端组）**
+
 Server端监听由网关转发到指定端口的请求，你可以在Nginx里面进行location的设置，通过proxy_pass将请求转发至该端口，一个Nginx的conf例子（假设使用默认的20000端口）：
 
 ```
