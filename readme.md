@@ -46,5 +46,5 @@ http://<your_ip>/cloud-transfer?path=<file_name>&id=<file_id>
 
 <center><b><i>Utopia © Copyright 2020. All rights reserved.</i></b></center>
 
-<img src="" style="float: left;" />
+<img src="https://raw.githubusercontent.com/KarKLi/WechatCloudDBTransfer/main/DCIM.png" style="float: left;" />
 
